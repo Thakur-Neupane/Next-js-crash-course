@@ -27,7 +27,14 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header className="bg-slate-500 text-white p-4 text-center">
+
+          <p>Welcome to Next Js 15 Crash Course</p>
+        </header>
         {children}
+        <footer className="bg-slate-500 text-white p-4 text-center">
+          <p>Code Evolution</p>
+        </footer>
       </body>
     </html>
   );
